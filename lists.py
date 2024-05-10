@@ -13,7 +13,7 @@ def remove_elements(list_to_remove_elements):
             del list_to_remove_elements[0]
             return list_to_remove_elements
     else:
-        return False
+        return list_to_remove_elements
 remove_elements(['Red','Green','White','Black','Pink','Yellow'])
 
 def add_elements(list_to_add_elements):
